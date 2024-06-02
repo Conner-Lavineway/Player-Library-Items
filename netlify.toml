@@ -4,11 +4,11 @@ publish = "public"
 
 [build.environment]
 # (Optional) Text in landing page button
-LANDING_BUTTON = "Click to steal some👆"
+LANDING_BUTTON = "Go away"
 # (Optional) Site description on landing page
-LANDING_DESCRIPTION = "I have nothing but intelligence."
+LANDING_DESCRIPTION = "You Shouldntr be here"
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
-LANDING_PAGE = "Travel God Shop"
+LANDING_PAGE = "Shops/Travel God Shop"
 # (Optional) Site title on landing page
 LANDING_TITLE = "I love obsidian-zola! 💖"
 PYTHON_VERSION = "3.8"

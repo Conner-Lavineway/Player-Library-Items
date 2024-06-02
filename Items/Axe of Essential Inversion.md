@@ -23,4 +23,3 @@ When a creature's alignment is changed in this way, roll a d20. On a 1, the ruby
 *The giant gestured to the angel, now still. "I offered him the same. If it tears at his soul, he may seek absolution. Or perhaps his truest self, free of moral shackles, will glory in its fall."*
 *The giant turned to pick up the angel, finishing, "I leave you now, once-Calamity. Do as suits your newer nature best."*
 
-[[Travel God Shop|]]

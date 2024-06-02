@@ -5,4 +5,3 @@ This platinum ring is chained to a matching bracelet. While wearing the hand cha
 
 *I will shoulder your burdens, I will bear your pain, as long as you stay near me.*
 *And so help me, if you insist on leaving, I'll make sure you stay stay there anyway.*
-[[Travel God Shop|]]

@@ -10,4 +10,3 @@ When you make an attack with the weapon, you can speak one of its three command 
 *Where there's smoke, there's fire. Where there's fire, there's food.*
 *—Battlechef mantra*
 
-[[Travel God Shop|]]

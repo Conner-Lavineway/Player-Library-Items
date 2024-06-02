@@ -8,3 +8,5 @@ Once on each of your turns when you walk 30 or more feet on the ground in a stra
 *Walkin' on water, walkin' on air,*
 *Nothin' at all can hope to compare,*
 *So may as well just let 'em stare.*
+
+[[Shops/Travel Gods Shop|Travel Gods Shop]]

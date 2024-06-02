@@ -4,13 +4,13 @@ publish = "public"
 
 [build.environment]
 # (Optional) Text in landing page button
-LANDING_BUTTON = "Enter the Library"
+LANDING_BUTTON = "Enter the Travel Gods Shop"
 # (Optional) Site description on landing page
 LANDING_DESCRIPTION = ""
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
 LANDING_PAGE ="shops/travel-gods-shop/"
 # (Optional) Site title on landing page
-LANDING_TITLE = "Welcome to the Library"
+LANDING_TITLE = "Welcome to the Travle Gods Shop"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
 REPO_URL = "https://github.com/Conner-Lavineway/Player-Library-Items"

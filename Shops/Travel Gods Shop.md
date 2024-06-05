@@ -60,16 +60,16 @@ A bloody tarnished razor, now a twisted shadow of its former self. This weapon d
 
 This axe's mighty twin blades are edged with ruby and sapphire. You gain a +2 bonus to attack and damage rolls made with this magic weapon, which deals an extra 1d12 force damage to any celestial or fiend it hits. 
 
-#### Charges 
+##### Charges 
 >The axe has 5 charges for the following properties. It regains all expended charges daily at dawn.
 
-#### Banishment
+##### Banishment
 >When you make an attack with this weapon, you can expend 2 of its charges to empower it with planar magic, or 1 charge if the target is a celestial or fiend. If the attack hits, the target is affected by the *banishment* spell. You must concentrate on the spell as normal, but if damage would cause you to lose concentration on the spell, you can expend 1 of the weapon's charges to continue concentrating on it instead (no action required).
 
-#### Dilution
+##### Dilution
 >When you hit a celestial or fiend with this weapon, you can expend 1 of its charges to deal an extra 1d12 force damage. When you do, the target's essence is diluted until the end of your next turn. For the duration, the target gains no benefit from any damage resistances or immunities, and it suffers from no damage vulnerabilities.
 
-#### Inversion
+##### Inversion
 >When you reduce a celestial or fiend to 0 hit points using the axe, you can expend 1 of its charges to force the target to make a DC 17 Charisma saving throw. On a failed save, the target's sense of self is shattered; it remains at 1 hit point, instead of 0, and its alignment is changed. Lawful becomes chaotic, good becomes evil, and vice versa. If its alignment is true neutral or unaligned, or if the target has the Legendary Resistance trait, this property has no effect on it.
 >
 When a creature's alignment is changed in this way, roll a d20. On a 1, the ruby or sapphire edge shatters. The ruby shatters if the target is a fiend, or the sapphire does if it's a celestial. If an edge is shattered, the weapon no longer gains any special benefit against the corresponding creature type. For instance, if the axe is missing its ruby edge, it deals no extra force damage when it hits a fiend, its Banishment property costs 2 charges when targeting them, and fiends aren't affected by the axe's Dilution or Inversion properties.

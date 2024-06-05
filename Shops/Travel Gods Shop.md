@@ -30,20 +30,13 @@ While wearing this mantle, when you move 10 or more feet before jumping, the dis
 
 *It's falling, with style.*
 
-# Cost: 2 Inspiration
+# Cost: 3 Inspiration
 
-## Mistwalkers
+## Cord Cutter
 
-![[Mistwalkers_800_Flat.png]]
-*Wondrous item, very rare (requires attunement)*
-
-Your walking speed is increased by 10 feet while wearing these boots. While in fog, you have a flying speed equal to your walking speed; you move through the air as if you're walking.
-
-Once on each of your turns when you walk 30 or more feet on the ground in a straight line, you can immediately cast the  *misty step* spell from the boots (no action required). When you do, choose an unoccupied space you can see within 30 feet of you that's along the same straight line and in the same direction in which you were moving: you then reappear in that space. Once this property of the boots has been used for the fifth time, it can't be used again until you finish a long rest.
-
-*Walkin' on water, walkin' on air,*
-*Nothin' at all can hope to compare,*
-*So may as well just let 'em stare.*
+![[Screenshot 2024-06-04 200912.png]]
+*Weapon (dagger), rare (requires attunement)*
+![[Screenshot 2024-06-04 201439.png]]
 
 # Cost 10 Inspiration
 
@@ -96,3 +89,16 @@ When you make an attack with the weapon, you can speak one of its three command 
 *Wondrous item, rare (requires attunement)*
 
 A silver necklace that hums with healing energy. When you cast either the *healing word* or *mass healing word* spells, when any of the dice rolled are a 4, roll an additional d4 for each die that rolled a 4. You do not roll any further additional dice if any of the additional dice roll a 4. Additionally, you can cast *healing word* and *mass healing word* without using verbal components, as the hum of the necklace carries the healing energy without your voice.
+
+## Mistwalkers
+
+![[Mistwalkers_800_Flat.png]]
+*Wondrous item, very rare (requires attunement)*
+
+Your walking speed is increased by 10 feet while wearing these boots. While in fog, you have a flying speed equal to your walking speed; you move through the air as if you're walking.
+
+Once on each of your turns when you walk 30 or more feet on the ground in a straight line, you can immediately cast the  *misty step* spell from the boots (no action required). When you do, choose an unoccupied space you can see within 30 feet of you that's along the same straight line and in the same direction in which you were moving: you then reappear in that space. Once this property of the boots has been used for the fifth time, it can't be used again until you finish a long rest.
+
+*Walkin' on water, walkin' on air,*
+*Nothin' at all can hope to compare,*
+*So may as well just let 'em stare.*

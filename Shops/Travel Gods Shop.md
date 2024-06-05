@@ -36,8 +36,21 @@ While wearing this mantle, when you move 10 or more feet before jumping, the dis
 
 ![[Screenshot 2024-06-04 200912.png]]
 *Weapon (dagger), rare (requires attunement)*
-![[Screenshot 2024-06-04 201439.png]]
 
+A bloody tarnished razor, now a twisted shadow of its former self. This weapon deals slashing damage instead of piercing damage.
+
+##### Bloody Barber
+>The number needed to score a critical hit against a grappled restrained or incapacitated creature with this weapon is reduced by 1.
+
+#### Larynx Laceration 
+>When you kill a creature with this weapon, you may choose to absorb knowledge from your quarry. For the next 24 hours you gain the following benefits:
+>>You can speak and understand any languages the creature knew in life.
+>
+>>You can mimic the voice of the creature. A creature that hears the sound can tell it is a imitation with a successful DC 14 Wisdom (Insight) check.
+>
+>You cannot benefit from this property multiple time. If you choose to activate this property again the duration is reset and the benefits of this property are updated to the new creature
+
+*There is a terrible tale told only in hushed whispers of the unfortunate barber, a man falsely accused and subsequently executed for crimes of which he was not guilty. He continued to cry out for mercy until he was silenced by the noose around his throat. Buried with his favourite razors in an act of spite, his restless spirit rose to exact vengeance upon those who ignored his pleas, to silence them as he was. To this day, the denizens of that fair city dare not venture out at night, and have learned to ignore any calls and requests that fall upon their ears, for they know not who may be truly speaking.*
 # Cost 10 Inspiration
 
 ## Axe of Essential Inversion
@@ -47,14 +60,18 @@ While wearing this mantle, when you move 10 or more feet before jumping, the dis
 
 This axe's mighty twin blades are edged with ruby and sapphire. You gain a +2 bonus to attack and damage rolls made with this magic weapon, which deals an extra 1d12 force damage to any celestial or fiend it hits. 
 
-***Charges.*** The axe has 5 charges for the following properties. It regains all expended charges daily at dawn.
+#### Charges 
+>The axe has 5 charges for the following properties. It regains all expended charges daily at dawn.
 
-***Banishment.*** When you make an attack with this weapon, you can expend 2 of its charges to empower it with planar magic, or 1 charge if the target is a celestial or fiend. If the attack hits, the target is affected by the *banishment* spell. You must concentrate on the spell as normal, but if damage would cause you to lose concentration on the spell, you can expend 1 of the weapon's charges to continue concentrating on it instead (no action required).
+#### Banishment
+>When you make an attack with this weapon, you can expend 2 of its charges to empower it with planar magic, or 1 charge if the target is a celestial or fiend. If the attack hits, the target is affected by the *banishment* spell. You must concentrate on the spell as normal, but if damage would cause you to lose concentration on the spell, you can expend 1 of the weapon's charges to continue concentrating on it instead (no action required).
 
-***Dilution.*** When you hit a celestial or fiend with this weapon, you can expend 1 of its charges to deal an extra 1d12 force damage. When you do, the target's essence is diluted until the end of your next turn. For the duration, the target gains no benefit from any damage resistances or immunities, and it suffers from no damage vulnerabilities.
+#### Dilution
+>When you hit a celestial or fiend with this weapon, you can expend 1 of its charges to deal an extra 1d12 force damage. When you do, the target's essence is diluted until the end of your next turn. For the duration, the target gains no benefit from any damage resistances or immunities, and it suffers from no damage vulnerabilities.
 
-***Inversion.*** When you reduce a celestial or fiend to 0 hit points using the axe, you can expend 1 of its charges to force the target to make a DC 17 Charisma saving throw. On a failed save, the target's sense of self is shattered; it remains at 1 hit point, instead of 0, and its alignment is changed. Lawful becomes chaotic, good becomes evil, and vice versa. If its alignment is true neutral or unaligned, or if the target has the Legendary Resistance trait, this property has no effect on it.
-
+#### Inversion
+>When you reduce a celestial or fiend to 0 hit points using the axe, you can expend 1 of its charges to force the target to make a DC 17 Charisma saving throw. On a failed save, the target's sense of self is shattered; it remains at 1 hit point, instead of 0, and its alignment is changed. Lawful becomes chaotic, good becomes evil, and vice versa. If its alignment is true neutral or unaligned, or if the target has the Legendary Resistance trait, this property has no effect on it.
+>
 When a creature's alignment is changed in this way, roll a d20. On a 1, the ruby or sapphire edge shatters. The ruby shatters if the target is a fiend, or the sapphire does if it's a celestial. If an edge is shattered, the weapon no longer gains any special benefit against the corresponding creature type. For instance, if the axe is missing its ruby edge, it deals no extra force damage when it hits a fiend, its Banishment property costs 2 charges when targeting them, and fiends aren't affected by the axe's Dilution or Inversion properties.
 
 *Gripped by agony, Calamity, the elder demon, faced death at last. She felt herself unravel: a welcome still to her wild bloodlust. At last, she would have quiet. The angel who felled her*

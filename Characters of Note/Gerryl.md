@@ -170,4 +170,4 @@ Three Slots
 - Invisibility (Wizard)
 - Suggestion (Wizard)
 
-![[PC/PDFS/Gerryl_Character_Sheet.pdf]]
+![[Gerryl_Character_Sheet.pdf]]

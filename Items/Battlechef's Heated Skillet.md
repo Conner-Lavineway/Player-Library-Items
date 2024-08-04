@@ -1,5 +1,5 @@
 ![[Battlechefs-Heated-Skillet_800_Flat.png]]
-*Weapon (mace), rare*
+*Weapon (mace or maul), rare*
 
 This iron skillet is magically light in your grasp, allowing you to swing it as a weapon. You gain a +1 bonus to attack and damage rolls made with this magic weapon.
 

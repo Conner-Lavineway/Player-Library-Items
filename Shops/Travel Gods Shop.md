@@ -1,5 +1,7 @@
-# Cost: 1 Inspiration
-## Heavenly Hand Chain
+
+# Items and Trinkets:
+## Cost: 1 Inspiration
+### Heavenly Hand Chain
 
 ![[Heavenly-Hand-Chain_800_Flat.png]]
 *Ring, uncommon (requires attunement by a cleric)*
@@ -9,9 +11,9 @@ This platinum ring is chained to a matching bracelet. While wearing the hand cha
 *I will shoulder your burdens, I will bear your pain, as long as you stay near me.*
 *And so help me, if you insist on leaving, I'll make sure you stay stay there anyway.*
 
-# Cost: 1 Inspiration
+## Cost: 1 Inspiration
 
-## Ring of Salt
+### Ring of Salt
 
 ![[Ring-of-Salt_800_Flat.png]]
 *Ring, rare*
@@ -20,9 +22,9 @@ This clear ring is made of crystalline salt. Wearing or removing the ring takes 
 
 *"I walk among death without its fear. Those that don't move on, get moved. My life is not but a bitter taste and beyond the pallete of all those, living and dead."*
 
-# Cost: 2 Inspiration
+## Cost: 2 Inspiration
 
-## Swallowtail Mantle
+### Swallowtail Mantle
 
 ![[Swallowtail-Mantle_800_Flat 1.png]]*Wondrous item, rare*
 
@@ -30,9 +32,9 @@ While wearing this mantle, when you move 10 or more feet before jumping, the dis
 
 *It's falling, with style.*
 
-# Cost: 3 Inspiration
+## Cost: 3 Inspiration
 
-## Cord Cutter
+### Cord Cutter
 
 ![[Screenshot 2024-06-04 200912.png]]
 *Weapon (dagger), rare (requires attunement)*
@@ -52,9 +54,9 @@ A bloody tarnished razor, now a twisted shadow of its former self. This weapon d
 >You cannot benefit from this property multiple times. If you choose to activate this property again the duration is reset and the benefits of this property are updated to the new creature
 
 *There is a terrible tale told only in hushed whispers of the unfortunate barber, a man falsely accused and subsequently executed for crimes of which he was not guilty. He continued to cry out for mercy until he was silenced by the noose around his throat. Buried with his favourite razors in an act of spite, his restless spirit rose to exact vengeance upon those who ignored his pleas, to silence them as he was. To this day, the denizens of that fair city dare not venture out at night, and have learned to ignore any calls and requests that fall upon their ears, for they know not who may be truly speaking.*
-# Cost 10 Inspiration
+## Cost 10 Inspiration
 
-## Axe of Essential Inversion
+### Axe of Essential Inversion
 
 ![[Axe-of-Essential-Inversion_800_Flat.png]]
 *Weapon (greataxe), legendary (requires attunement)*
@@ -85,9 +87,35 @@ This axe's mighty twin blades are edged with ruby and sapphire. You gain a +2 bo
 *The giant gestured to the angel, now still. "I offered him the same. If it tears at his soul, he may seek absolution. Or perhaps his truest self, free of moral shackles, will glory in its fall."*
 *The giant turned to pick up the angel, finishing, "I leave you now, once-Calamity. Do as suits your newer nature best."*
 
+
+# Spells and Such:
+
+## Cost: 15 Inspiration
+
+### Book of Spell Craft
+
+![[Vordanins Book of Spells.pdf]]
+
+## Cost: 1 Inspiration
+
+### Prime Pulse
+
+![[Prime Pulse.png]]
+*Evocation Cantrip*
+##### Casting Time: 1 Action
+##### Range: Touch
+##### Components: S
+##### Duration: Instantaneous
+
+You channel a focused pulse of energy seeking out vulnerabilities in your foe. Make a melee spell attack against the target. Upon a hit, the target takes 1d8 force damage. Should the damage rolled be a prime number, the spell grants you a fleeting glimpse into is structural weaknesses. You gain a bonus to hit equal to the damage dealt on your next attack roll against the same target. This bonus must be utilized within the next minute, as the insight fades with time.
+
+The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8) and 17th level (4d8)
+
+
+
 # SOLD ITEMS
 
-## Battlechef's Heated Skillet
+### Battlechef's Heated Skillet
 
 ![[Battlechefs-Heated-Skillet_800_Flat.png]]
 *Weapon (mace), rare*
@@ -101,14 +129,14 @@ When you make an attack with the weapon, you can speak one of its three command 
 *Where there's smoke, there's fire. Where there's fire, there's food.*
 *—Battlechef mantra*
 
-## Healer's Voice
+### Healer's Voice
 
 ![[Healers-Voice_800_Flat.png]]
 *Wondrous item, rare (requires attunement)*
 
 A silver necklace that hums with healing energy. When you cast either the *healing word* or *mass healing word* spells, when any of the dice rolled are a 4, roll an additional d4 for each die that rolled a 4. You do not roll any further additional dice if any of the additional dice roll a 4. Additionally, you can cast *healing word* and *mass healing word* without using verbal components, as the hum of the necklace carries the healing energy without your voice.
 
-## Mistwalkers
+### Mistwalkers
 
 ![[Mistwalkers_800_Flat.png]]
 *Wondrous item, very rare (requires attunement)*

@@ -1,1 +1,3 @@
-![[Vordanins Book of Spells.pdf]]
+![[Spellcraft Cover.png]]
+
+### *Trust me its worth it*

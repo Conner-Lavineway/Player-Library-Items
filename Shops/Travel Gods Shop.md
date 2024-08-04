@@ -94,7 +94,10 @@ This axe's mighty twin blades are edged with ruby and sapphire. You gain a +2 bo
 
 ### Book of Spell Craft
 
-![[Vordanins Book of Spells.pdf]]
+![[Spellcraft Cover.png]]
+
+### *Trust me its worth it*
+
 
 ## Cost: 1 Inspiration
 

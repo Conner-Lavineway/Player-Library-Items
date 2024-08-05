@@ -6,7 +6,7 @@ publish = "public"
 # (Optional) Text in landing page button
 LANDING_BUTTON = "Enter the Travel Gods Shop"
 # (Optional) Site description on landing page
-LANDING_DESCRIPTION = "Conner Retains all rights to edit items and tweak things on the fly"
+LANDING_DESCRIPTION = "Conner retains all rights to edit items and tweak things on the fly"
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
 LANDING_PAGE ="shops/travel-gods-shop/"
 # (Optional) Site title on landing page

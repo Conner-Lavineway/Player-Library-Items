@@ -1,4 +1,4 @@
-[[The Gods|]]
+
 Alignment: Chaotic Good
 True Name:
 	Omnia Mater (All Mother)

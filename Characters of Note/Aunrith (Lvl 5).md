@@ -72,6 +72,7 @@
 ## Magic Items of Note
 - [[Healer's Voice]]
 ## Languages and Proficiencies
+- Darkvision: 120ft
 - Armor: Light, Medium, Heavy, Shields \
 - Weapons: Rapiers, Short swords, Hand crossbows, Simple
 - Languages: Common, Abyssal, Elven, Celestial

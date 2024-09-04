@@ -74,8 +74,8 @@
 ## Magic Items of Note
 - [[Murder of Crows]]
 - [[Mistwallkers]]
+- [[TrickShot]]
 ## Languages and Proficiencies
-
 - Blindsight 10ft
 - Armor: Light, Medium, Shields 
 - Weapons: Martial, Simple 
@@ -90,6 +90,7 @@
 | Wis        | 12            | +4             |
 
 ### First Level
+
 2 Slots
 - Fog Cloud (Ranger)
 - Searing Smite (Ranger)

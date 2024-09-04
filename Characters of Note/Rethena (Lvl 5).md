@@ -73,6 +73,7 @@
 | ------ | ------ | ---- | -------- |
 | ~900   | ~300   | ~400 |          |
 ## Languages and Proficiencies
+- Darkvision 60ft
 - Armor: Heavy , Light , Medium, Shields 
 - Weapons: Martial, Simple 
 - Languages: Abyssal, Common, Orc, Undercommon

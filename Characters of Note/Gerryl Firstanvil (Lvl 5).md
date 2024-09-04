@@ -61,7 +61,7 @@
 
 | Name         | ATK Bonus | Damage                                | Type                |
 | ------------ | --------- | ------------------------------------- | ------------------- |
-| Punch        | +6        | 1d8 + 3                               | Bludgeoning (Magic) |
+| Thunderpunch | +6        | 1d8 + 3                               | Thunder (Magic)     |
 | LightBringer | +7        | 1d6 + 5 (+1d6 radiant against undead) | Bludgeoning (Magic) |
 
 ## Money
@@ -81,19 +81,18 @@
 
 ## Spell Casting
 
-| Cast Skill | Spell Save DC     | Spell Modifier |
-| ---------- | ----------------- | -------------- |
-| INT        | 14 (8 + PB + INT) | +6             |
+| Cast Skill | Spell Save DC | Spell Modifier |
+| ---------- | ------------- | -------------- |
+| INT        | 14            | +6             |
 
 ### Cantrips
-
 - Magic Stone (Artificer)
 - Thorn Whip (Artificer)
 - Green-Flame Blade (Wizard)
 - Prestidigitation (Wizard)
 - Sword Burst (Wizard)
 ### First Level 
-Four Slots
+4 Slots
 - Absorb Elements (Artificer)
 - Cure Wounds (Artificer)
 - Armor of Agathys (Artificer)
@@ -107,6 +106,6 @@ Four Slots
 - Shield (Wizard)
 - Silvery Barbs (Wizard)
 ### Second Level
-Three Slots
+3Slots
 - Invisibility (Wizard)
 - Suggestion (Wizard)

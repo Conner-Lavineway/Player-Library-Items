@@ -61,7 +61,7 @@
 
 | Name                | ATK Bonus | Damage | Type             |
 | ------------------- | --------- | ------ | ---------------- |
-| Crossbow,Light      | +6        | 1d8+3  | Piercing         |
+| Crossbow, Light     | +6        | 1d8+3  | Piercing         |
 | [[Murder of Crows]] | +6        | 1d4+3  | Piercing (Magic) |
 | Rapier              | +6        | 1d8+3  | Piercing         |
 | Unarmed Strike      | +3        | 1      | Bludgeoning      |

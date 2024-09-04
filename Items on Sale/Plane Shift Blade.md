@@ -8,3 +8,5 @@ This silver sword is embossed by a series of runes at its hilt, which glow a bri
 
 #### Ethereal Blade
 >Due to this blade existing in the same place in the Ethereal plane it can attack creatures in the Ethereal plane (Ghost for example)
+
+[[Shops/Travel Gods Shop|Travel Gods Shop]]

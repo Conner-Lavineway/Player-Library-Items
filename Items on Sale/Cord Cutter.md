@@ -1,5 +1,5 @@
 
-![[Screenshot 2024-06-04 200912.png]]
+![[Cord Cutter.png]]
 *Weapon (dagger), rare (requires attunement)*
 
 A bloody tarnished razor, now a twisted shadow of its former self. This weapon deals slashing damage instead of piercing damage.

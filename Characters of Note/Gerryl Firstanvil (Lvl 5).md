@@ -11,16 +11,17 @@
 
 ### Derived Stats
 
-| Derived Stat      | Value      |
-| ----------------- | ---------- |
-| Hit Points        | 34         |
-| Temp HP           | 0          |
-| Hit Dice          | 3d8 \| 2d6 |
-| Proficiency Bonus | 3          |
-| Passive Wisdom    | 12         |
-| Speed             | 25ft       |
-| Amor Class (AC)   | 19         |
-| Initiative        | 1          |
+| Derived Stat          | Value     |
+| --------------------- | --------- |
+| Hit Points            | 34        |
+| Hit Dice              | 3d8 + 2d6 |
+| Proficiency Bonus     | 3         |
+| Passive Perception    | 11        |
+| Passive Insight       | 12        |
+| Passive Investigation | 16 + 1d4  |
+| Speed                 | 25ft      |
+| Amor Class (AC)       | 19        |
+| Initiative            | 1         |
 
 ## Skills
 
@@ -58,85 +59,25 @@
 
 ## Attacks
 
-| Name         | ATK Bonus | Damage  | Type                |
-| ------------ | --------- | ------- | ------------------- |
-| Punch        | +6        | 1d8 + 3 | Bludgeoning (Magic) |
-| LightBringer | +7        | 1d6 + 5 | Bludgeoning (Magic) |
-LightBringer - +1d6 radiant against undead
+| Name         | ATK Bonus | Damage                                | Type                |
+| ------------ | --------- | ------------------------------------- | ------------------- |
+| Punch        | +6        | 1d8 + 3                               | Bludgeoning (Magic) |
+| LightBringer | +7        | 1d6 + 5 (+1d6 radiant against undead) | Bludgeoning (Magic) |
 
+## Money
 
-## Equipment
-
-Wooden Case w/ map of dungeon 
-Bullseye Lantern 
-Miner's Pick 
-Traveler's Clothes 
-Shovel 
-Two-person Tent 
-Pouch 
-Hat 
-Chain Mail +1 (Arcane Armor) 
-Shield 
-Sling 
-Dungeoneer's Pack 
-Grappling Hook 
-Bedroll 
-Tinker's tools 
-Cartographer's tools 
-Signal Whistle
-Bag of Holding 
-Pebbles (46) 
-Sentinel Belt 
-9/10 rations 
-Smith's tools 
-Spellbook 
-Gauntlets of Ogre Power (attuned) 
-Winter Gear
+| Copper | Silver | Gold | Platinum |
+| ------ | ------ | ---- | -------- |
+| 915    | 303    | 75   | 0        |
 
 ## Languages and Proficiencies
 
-Armor: Light, Medium, Heavy, Shields 
-Weapons: Simple, Battleaxe, Warhammer 
-Tools: Thieves', Tinker's, Smith's, Cartographer's 
-Languages: Common, Dwarvish, Primordial
+- Darkvision 60ft
+- Armor: Light, Medium, Heavy, Shields 
+- Weapons: Simple, Battleaxe, Warhammer 
+- Tools: Thieves', Tinker's, Smith's, Cartographer's 
+- Languages: Common, Dwarvish, Primordial
 
-
-## Features
-
-Archaeologist Feats
-- Historical Knowledge 
-Mark of Warding Dwarf Feats
-- Darkvision
-- Dwarven Resilience
-- Dwarven Combat Training 
-- Stonecunning
-- Warder's Intuition
-- Wards and Seals
-- Spells of the Mark
-Artificer Feats
-- Magical Tinkering
-- Spellcasting (Ritual)
-- Infuse Item (2 charges)
-- Enhanced Arcane Focus
-- Enhanced Defense
-- Enhanced Weapon
-- Replicate Magic Item (Bag of Holding)
-- The Right Tool for the Job
-Artificer Specialty
-- Armorer - Arcane Armor
-- Armor Model
-- Guardian
-- 1d8 thunder damage
-- 1/2 charges/long rest
-- BA + 1 charge, temp HP = Artificer lvl 
-- Infiltrator
-Wizard Feats
-- Spellcasting
-- Arcane Recovery
-Arcane Tradition (Abjuration) 
-- Abjuration Savant 
-- Arcane Ward
-- 5 hit points max
 
 ## Spell Casting
 
@@ -169,5 +110,3 @@ Four Slots
 Three Slots
 - Invisibility (Wizard)
 - Suggestion (Wizard)
-
-![[Gerryl_Character_Sheet.pdf]]

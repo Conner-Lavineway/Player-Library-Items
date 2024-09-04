@@ -8,3 +8,5 @@ You gain a +1 bonus to attack and damage rolls made with this magic weapon. Addi
 
 #### Intellectual Edge
 >Once per long rest, when you make an Intelligence ability check, you can add 1d10 to the roll.
+
+[[Shops/Travel Gods Shop|Travel Gods Shop]]

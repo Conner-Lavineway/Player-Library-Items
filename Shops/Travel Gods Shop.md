@@ -12,6 +12,15 @@ This platinum ring is chained to a matching bracelet. While wearing the hand cha
 *And so help me, if you insist on leaving, I'll make sure you stay stay there anyway.*
 
 ## Cost: 1 Inspiration
+### Rings of Transposition
+![[Rings of Transposition.jpg]]
+*Wondrous item, rare*
+
+A set of two near identical rings. When the rings are worn by individual creatures, synergistic conjuration magic is awakened.
+
+As a bonus action a creature can initiate a transposition. When this action is made, the creature with the corresponding ring can use their reaction to complete the transposition. If the creatures are within 30ft of each other, they teleport, instantly switching locations. A creature with one ring can use there action to force the transposition.
+
+## Cost: 1 Inspiration
 
 ### Ring of Salt
 
@@ -33,10 +42,24 @@ While wearing this mantle, when you move 10 or more feet before jumping, the dis
 *It's falling, with style.*
 
 ## Cost: 3 Inspiration
+### Tricksters Cloak
+![[Tricksters cloak.png]]
+*Wondrous item, rare (requires attunement) ** 
+  
+This cloak is crafted from a patchwork of various fabrics, stitched together in a chaotic yet strangely effective manner. While wearing it, you gain a +2 bonus to Dexterity (stealth) checks.  
+
+#### Trickster’s Swap
+>When you are targeted by an attack, you can use your reaction to change places with any creature other than the attacker that is within 5 feet of you without invoking opportunity attacks. The creature then becomes the new target of the attack.  
+>
+>If a creature is unwilling to change places, they must make a DC 15 Dexterity saving throw. On a success, they are unaffected and you remain the target of the attack. You may use this ability 3 times and regain all expended uses upon completion of a long rest.
+
+[[Shops/Travel Gods Shop|Travel Gods Shop]]
+
+## Cost: 3 Inspiration
 
 ### Cord Cutter
 
-![[Screenshot 2024-06-04 200912.png]]
+![[Cord Cutter.png]]
 *Weapon (dagger), rare (requires attunement)*
 
 A bloody tarnished razor, now a twisted shadow of its former self. This weapon deals slashing damage instead of piercing damage.
@@ -54,7 +77,51 @@ A bloody tarnished razor, now a twisted shadow of its former self. This weapon d
 >You cannot benefit from this property multiple times. If you choose to activate this property again the duration is reset and the benefits of this property are updated to the new creature
 
 *There is a terrible tale told only in hushed whispers of the unfortunate barber, a man falsely accused and subsequently executed for crimes of which he was not guilty. He continued to cry out for mercy until he was silenced by the noose around his throat. Buried with his favourite razors in an act of spite, his restless spirit rose to exact vengeance upon those who ignored his pleas, to silence them as he was. To this day, the denizens of that fair city dare not venture out at night, and have learned to ignore any calls and requests that fall upon their ears, for they know not who may be truly speaking.*
-## Cost 10 Inspiration
+
+## Cost: 3 Inspiration
+### Flute of the Crystalline Armory
+
+![[Flute of the Crystalline Armoury.png]]
+*Wondrous item, rare, (requires attunement by a bard)*
+
+This flute is a work of art capable of summoning crystalline weapons out of thin air and moving them with magic.
+
+#### Crystalline Armoury
+>Certain melodies can be played on the flute to access the Crystalline Armoury, a repository of magical weapons. You can use an action to summon a magical sword in an unoccupied space within 5ft of you. I has the statistics of a flying sword and it obeys your commands telepathically, acting on its own turns during combat.
+>You can summon the sword once per long rest and it shatters once its hit points are reduced to 0
+
+#### Song of Battle
+>Songs played on the flute can be weaponized: you can cast magic missile at a level that you have a spell slot for without spending a spell slot once per long rest
+
+## Cost: 4 Inspiration
+### Blade of Knowledge
+
+![[Blade of Knowledge.png]]
+*Weapon (any sword), rare, requires attunement*
+  
+You gain a +1 bonus to attack and damage rolls made with this magic weapon. Additionally, when you hit a creature with a melee attack using this sword, you learn their Intelligence ability score.  
+
+#### Unmatched Acumen
+>If you hit a creature whose intelligence score is less than yours with a melee attack using the sword, you can use its ability to turn that attack into a critical hit. Once you use this ability, you can’t use it again until you finish a short or long rest.  
+
+#### Intellectual Edge
+>Once per long rest, when you make an Intelligence ability check, you can add 1d10 to the roll.
+
+### Cost: 7 Inspiration
+### Plane Shift Blade
+![[Plane Shift Blade.png]]
+*Weapon (longsword or greatsword), very rare, requires attunement*
+
+This silver sword is embossed by a series of runes at its hilt, which glow a bright indigo, when the weapon's magic is used. You have a +2 bonus to attack and damage rolls made with this magic weapon.
+
+#### Banishing Slash
+>When you roll a critical hit for an attack against a creature, you can force it to make a DC 16 Charisma saving throw (no action required). On a failed save, it is transported to a random location on the plane of existence you specify. A creature transported this way must find its own way back to your current plane of existence. Once a creature is banished in this way, you cannot use this feature of the sword until the next dawn
+
+#### Ethereal Blade
+>Due to this blade existing in the same place in the Ethereal plane it can attack creatures in the Ethereal plane (Ghost for example)
+
+
+## Cost 7 Inspiration
 
 ### Axe of Essential Inversion
 
@@ -90,15 +157,6 @@ This axe's mighty twin blades are edged with ruby and sapphire. You gain a +2 bo
 
 # Spells and Such:
 
-## Cost: 15 Inspiration
-
-### Book of Spell Craft
-
-![[Spellcraft Cover.png]]
-
-### *Trust me its worth it*
-
-
 ## Cost: 1 Inspiration
 
 ### Prime Pulse
@@ -114,7 +172,13 @@ You channel a focused pulse of energy seeking out vulnerabilities in your foe. M
 
 The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8) and 17th level (4d8)
 
+## Cost: 7 Inspiration
 
+### Book of Spell Craft
+
+![[Spellcraft Cover.png]]
+
+### *Trust me its worth it*
 
 # SOLD ITEMS
 

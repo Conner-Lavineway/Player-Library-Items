@@ -69,11 +69,12 @@
 | Copper | Silver | Gold | Platinum |
 | ------ | ------ | ---- | -------- |
 | 919    | 277    | 15   |          |
-
-
+## Magic Items of Note
+- [[Healer's Voice]]
 ## Languages and Proficiencies
-
-
+- Armor: Light, Medium, Heavy, Shields \
+- Weapons: Rapiers, Short swords, Hand crossbows, Simple
+- Languages: Common, Abyssal, Elven, Celestial
 ## Spell Casting
 
 | Cast Skill | Spell Save DC | Spell Modifier |

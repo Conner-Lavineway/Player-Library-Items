@@ -77,8 +77,6 @@
 - Weapons: Simple, Battleaxe, Warhammer 
 - Tools: Thieves', Tinker's, Smith's, Cartographer's 
 - Languages: Common, Dwarvish, Primordial
-
-
 ## Spell Casting
 
 | Cast Skill | Spell Save DC | Spell Modifier |

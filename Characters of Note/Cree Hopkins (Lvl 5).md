@@ -73,12 +73,12 @@
 | 903    | 310    | 512  | 0        |
 ## Magic Items of Note
 - [[Murder of Crows]]
-
+- [[Mistwallkers]]
 ## Languages and Proficiencies
 
 - Blindsight 10ft
-- Armor: Light Armor, Medium Armor, Shields 
-- Weapons: Martial Weapons, Simple Weapons 
+- Armor: Light, Medium, Shields 
+- Weapons: Martial, Simple 
 - Tools: Dice Set, Flute, Thieves' Tools 
 - Languages: Common, Elvish, Gnomish, Goblin, Thieves’ Cant
 

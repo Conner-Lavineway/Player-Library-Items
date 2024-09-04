@@ -67,15 +67,13 @@
 
 
 ## Money
-*Guesses at the Money
+*Money is best guess
 
 | Copper | Silver | Gold | Platinum |
 | ------ | ------ | ---- | -------- |
 | ~900   | ~300   | ~400 |          |
-
-
 ## Languages and Proficiencies
-- Armor: Heavy Armor, Light Armor, Medium Armor, Shields 
-- Weapons: Martial Weapons, Simple Weapons 
+- Armor: Heavy , Light , Medium, Shields 
+- Weapons: Martial, Simple 
 - Languages: Abyssal, Common, Orc, Undercommon
 

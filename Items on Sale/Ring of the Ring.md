@@ -1,4 +1,5 @@
-**Ring of the Ring**
+![[Ring-of-the-Ring_800_Flat.png]]
+
 *Ring, rare (requires attunement)*
 
 This ring has a bell at its top, like a signet. When you hit a target with an unarmed strike, it emits a faraway "ding" sound. While wearing it, you gain a +1 bonus to attack and damage rolls made with unarmed strikes.

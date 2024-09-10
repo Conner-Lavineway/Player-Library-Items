@@ -1,7 +1,7 @@
 
 ![[Murder of Crows.png]]*Dagger, uncommon, requires attunement*
 
-Gifted by the Murder, this dagger's pommel is decorated by a different trinket whenever its unsheathed - shiny rocks, pieces of metal or coloured glass shards are the most common finds. It as three charges that are regained everyday at dusk.
+Gifted by the Murder, this dagger's pommel is decorated by a different trinket whenever its unsheathed - shiny rocks, pieces of metal or coloured glass shards are the most common finds. It has three charges that are regained everyday at dusk.
 
 #### Birds of a Feather
 >When you make an attack with the Murder of Crows, you can summon a spectral copy of it in your other hand. This copy disappears at the start of your next turn (or before if you wish it to).

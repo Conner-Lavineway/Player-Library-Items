@@ -9,6 +9,11 @@ LANDING_BUTTON = "Enter the Travel Gods Shop"
 LANDING_DESCRIPTION = "Conner retains all rights to edit items and tweak things on the fly"
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
 LANDING_PAGE ="shops/travel-gods-shop/"
+LANDING_BUTTON = "Enter the Travel Gods Shop"
+# (Optional) Site description on landing page
+LANDING_DESCRIPTION = "Conner retains all rights to edit items and tweak things on the fly"
+# (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
+LANDING_PAGE ="shops/travel-gods-shop/"
 # (Optional) Site title on landing page
 LANDING_TITLE = "Welcome to the Travel Gods Shop"
 PYTHON_VERSION = "3.8"

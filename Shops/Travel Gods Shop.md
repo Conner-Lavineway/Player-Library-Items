@@ -77,7 +77,6 @@ This cloak is crafted from a patchwork of various fabrics, stitched together in 
 >
 >If a creature is unwilling to change places, they must make a DC 15 Dexterity saving throw. On a success, they are unaffected and you remain the target of the attack. You may use this ability 3 times and regain all expended uses upon completion of a long rest.
 
-[[Shops/Travel Gods Shop|Travel Gods Shop]]
 
 ## Cost: 3 Inspiration
 

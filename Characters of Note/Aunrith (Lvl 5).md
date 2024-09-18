@@ -71,6 +71,7 @@
 | 919    | 277    | 15   |          |
 ## Magic Items of Note
 - [[Healer's Voice]]
+- [[Glasses of Spell Rewriting]]
 ## Languages and Proficiencies
 - Darkvision: 120ft
 - Armor: Light, Medium, Heavy, Shields \

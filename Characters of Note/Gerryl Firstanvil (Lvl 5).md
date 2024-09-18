@@ -69,7 +69,8 @@
 | Copper | Silver | Gold | Platinum |
 | ------ | ------ | ---- | -------- |
 | 915    | 303    | 75   | 0        |
-
+## Magic Items of Note
+- [[Glasses of Spell Rewriting]]
 ## Languages and Proficiencies
 
 - Darkvision 60ft

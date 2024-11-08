@@ -71,6 +71,7 @@
 | 915    | 303    | 75   | 0        |
 ## Magic Items of Note
 - [[Glasses of Spell Rewriting]]
+- [[Ring of the Ring]]
 ## Languages and Proficiencies
 
 - Darkvision 60ft
@@ -105,6 +106,6 @@
 - Shield (Wizard)
 - Silvery Barbs (Wizard)
 ### Second Level
-3Slots
+3 Slots
 - Invisibility (Wizard)
 - Suggestion (Wizard)

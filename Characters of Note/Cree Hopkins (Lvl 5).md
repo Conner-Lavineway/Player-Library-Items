@@ -94,3 +94,8 @@
 2 Slots
 - Fog Cloud (Ranger)
 - Searing Smite (Ranger)
+
+
+
+Notes:
+- Oldest of the Hopkids

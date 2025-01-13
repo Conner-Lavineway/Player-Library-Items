@@ -1,3 +1,4 @@
+#Homebrew
 When you roll a critical hit you deal max damage (including modifiers) + rolled damage
 
 Ex:

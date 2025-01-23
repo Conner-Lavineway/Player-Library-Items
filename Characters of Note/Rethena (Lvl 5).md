@@ -74,7 +74,7 @@
 | ------ | ------ | ---- | -------- |
 | ~900   | ~300   | ~400 |          |
 ## Magic Items of Note
-- [[Battlechef's Heated Skillet]]
+- [[DND/Player Library Items/Items in Inventories/Battlechef's Heated Skillet|Battlechef's Heated Skillet]]
 ## Languages and Proficiencies
 - Darkvision 60ft
 - Armor: Heavy , Light , Medium, Shields 

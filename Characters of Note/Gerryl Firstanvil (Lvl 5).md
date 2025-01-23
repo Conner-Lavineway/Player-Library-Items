@@ -71,8 +71,8 @@
 | ------ | ------ | ---- | -------- |
 | 915    | 303    | 75   | 0        |
 ## Magic Items of Note
-- [[Glasses of Spell Rewriting]]
-- [[Ring of the Ring]]
+- [[DND/Player Library Items/Items in Inventories/Glasses of Spell Rewriting|Glasses of Spell Rewriting]]
+- [[DND/Player Library Items/Items in Inventories/Ring of the Ring|Ring of the Ring]]
 ## Languages and Proficiencies
 
 - Darkvision 60ft

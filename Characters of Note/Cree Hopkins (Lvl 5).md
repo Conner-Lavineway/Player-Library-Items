@@ -73,9 +73,9 @@
 | ------ | ------ | ---- | -------- |
 | 903    | 310    | 512  | 0        |
 ## Magic Items of Note
-- [[Murder of Crows]]
-- [[Mistwallkers]]
-- [[TrickShot]]
+- [[DND/Player Library Items/Items in Inventories/Murder of Crows|Murder of Crows|Murder of Crows]]
+- [[DND/Player Library Items/Items in Inventories/Mistwallkers|Mistwallkers]]
+- [[DND/Player Library Items/Items in Inventories/TrickShot|TrickShot]]
 ## Languages and Proficiencies
 - Blindsight 10ft
 - Armor: Light, Medium, Shields 

@@ -1,0 +1,230 @@
+---
+title: "Dice Data"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(reticulate)
+
+data <- read.csv("Dice-Data_Test.csv")
+
+d20 <- data %>%
+  select(starts_with("d20"))
+
+d12 <- data %>%
+  select(starts_with("d12"))
+
+d10 <- data %>%
+  select(starts_with("d10"))
+
+d8 <- data %>%
+  select(starts_with("d8"))
+
+d6 <- data %>%
+  select(starts_with("d6"))
+
+d4 <- data %>%
+  select(starts_with("d4"))
+
+
+write.csv(d20, "d20.csv", row.names = FALSE)
+write.csv(d12, "d12.csv", row.names = FALSE)
+write.csv(d10, "d10.csv", row.names = FALSE)
+write.csv(d8, "d8.csv", row.names = FALSE)
+write.csv(d6, "d6.csv", row.names = FALSE)
+write.csv(d4, "d4.csv", row.names = FALSE)
+
+system('python3 data-format.py')
+
+d20 <- read.csv("d20-Sums.csv")
+d12 <- read.csv("d12-Sums.csv")
+d10 <- read.csv("d10-Sums.csv")
+d8 <- read.csv("d8-Sums.csv")
+d6 <- read.csv("d6-Sums.csv")
+d4 <- read.csv("d4-Sums.csv")
+
+d20Plot <- ggplot(data = d20, aes(x = Value, y = Freq)) + 
+  geom_bar(stat = "identity", fill = "#8FD6FA", width = 0.6) +
+  theme(panel.background = element_rect(fill = "#202429"),
+        panel.grid = element_line(color = "#202429")) +
+  xlab("Rolled Number") + 
+  ylab("Frequency of Roll") +
+  scale_x_continuous(labels = as.character(d20$Value), breaks = d20$Value) + 
+  geom_text(aes(label = Freq), vjust = 0, color = "white")
+d20Plot
+ggsave("d20Stats.png", plot = d20Plot)
+
+
+d12Plot <- ggplot(data = d12, aes(x = Value, y = Freq)) + 
+  geom_bar(stat = "identity", fill = "#8FD6FA", width = 0.6) +
+  theme(panel.background = element_rect(fill = "#202429"),
+        panel.grid = element_line(color = "#202429")) +
+  xlab("Rolled Number") + 
+  ylab("Frequency of Roll") +
+  scale_x_continuous(labels = as.character(d12$Value), breaks = d12$Value) + 
+  geom_text(aes(label = Freq), vjust = 0, color = "white")
+d12Plot
+ggsave("d12Stats.png", plot = d12Plot)
+
+
+d10Plot <- ggplot(data = d10, aes(x = Value, y = Freq)) + 
+  geom_bar(stat = "identity", fill = "#8FD6FA", width = 0.6) +
+  theme(panel.background = element_rect(fill = "#202429"),
+        panel.grid = element_line(color = "#202429")) +
+  xlab("Rolled Number") + 
+  ylab("Frequency of Roll") +
+  scale_x_continuous(labels = as.character(d10$Value), breaks = d10$Value) + 
+  geom_text(aes(label = Freq), vjust = 0, color = "white")
+d10Plot
+ggsave("d10Stats.png", plot = d10Plot)
+
+
+d8Plot <- ggplot(data = d8, aes(x = Value, y = Freq)) + 
+  geom_bar(stat = "identity", fill = "#8FD6FA", width = 0.6) +
+  theme(panel.background = element_rect(fill = "#202429"),
+        panel.grid = element_line(color = "#202429")) +
+  xlab("Rolled Number") + 
+  ylab("Frequency of Roll") +
+  scale_x_continuous(labels = as.character(d8$Value), breaks = d8$Value) + 
+  geom_text(aes(label = Freq), vjust = 0, color = "white")
+d8Plot
+ggsave("d8Stats.png", plot = d8Plot)
+
+
+d6Plot <- ggplot(data = d6, aes(x = Value, y = Freq)) + 
+  geom_bar(stat = "identity", fill = "#8FD6FA", width = 0.6) +
+  theme(panel.background = element_rect(fill = "#202429"),
+        panel.grid = element_line(color = "#202429")) +
+  xlab("Rolled Number") + 
+  ylab("Frequency of Roll") +
+  scale_x_continuous(labels = as.character(d6$Value), breaks = d6$Value) + 
+  geom_text(aes(label = Freq), vjust = 0, color = "white")
+d6Plot
+ggsave("d6Stats.png", plot = d6Plot)
+
+
+d4Plot <- ggplot(data = d4, aes(x = Value, y = Freq)) + 
+  geom_bar(stat = "identity", fill = "#8FD4FA", width = 0.6) +
+  theme(panel.background = element_rect(fill = "#202429"),
+        panel.grid = element_line(color = "#202429")) +
+  xlab("Rolled Number") + 
+  ylab("Frequency of Roll") +
+  scale_x_continuous(labels = as.character(d4$Value), breaks = d4$Value) + 
+  geom_text(aes(label = Freq), vjust = 0, color = "white")
+d4Plot
+ggsave("d4Stats.png", plot = d4Plot)
+```
+
+
+
+```{r, echo = false}
+data <- read.csv("Dice-Data.csv")
+
+d20 <- data %>%
+  select(starts_with("d20"))
+
+d12 <- data %>%
+  select(starts_with("d12"))
+
+d10 <- data %>%
+  select(starts_with("d10"))
+
+d8 <- data %>%
+  select(starts_with("d8"))
+
+d6 <- data %>%
+  select(starts_with("d6"))
+
+d4 <- data %>%
+  select(starts_with("d4"))
+
+
+write.csv(d20, "d20.csv", row.names = FALSE)
+write.csv(d12, "d12.csv", row.names = FALSE)
+write.csv(d10, "d10.csv", row.names = FALSE)
+write.csv(d8, "d8.csv", row.names = FALSE)
+write.csv(d6, "d6.csv", row.names = FALSE)
+write.csv(d4, "d4.csv", row.names = FALSE)
+
+system('python3 data-format.py')
+
+d20 <- read.csv("d20-Sums.csv")
+d12 <- read.csv("d12-Sums.csv")
+d10 <- read.csv("d10-Sums.csv")
+d8 <- read.csv("d8-Sums.csv")
+d6 <- read.csv("d6-Sums.csv")
+d4 <- read.csv("d4-Sums.csv")
+
+d20Plot <- ggplot(data = d20, aes(x = Value, y = Freq)) + 
+  geom_bar(stat = "identity", fill = "#8FD6FA", width = 0.6) +
+  theme(panel.background = element_rect(fill = "#202429"),
+        panel.grid = element_line(color = "#202429")) +
+  xlab("Rolled Number") + 
+  ylab("Frequency of Roll") +
+  scale_x_continuous(labels = as.character(d20$Value), breaks = d20$Value) + 
+  geom_text(aes(label = Freq), vjust = 0, color = "white")
+d20Plot
+ggsave("d20Stats.png", plot = d20Plot)
+
+
+d12Plot <- ggplot(data = d12, aes(x = Value, y = Freq)) + 
+  geom_bar(stat = "identity", fill = "#8FD6FA", width = 0.6) +
+  theme(panel.background = element_rect(fill = "#202429"),
+        panel.grid = element_line(color = "#202429")) +
+  xlab("Rolled Number") + 
+  ylab("Frequency of Roll") +
+  scale_x_continuous(labels = as.character(d12$Value), breaks = d12$Value) + 
+  geom_text(aes(label = Freq), vjust = 0, color = "white")
+d12Plot
+ggsave("d12Stats.png", plot = d12Plot)
+
+
+d10Plot <- ggplot(data = d10, aes(x = Value, y = Freq)) + 
+  geom_bar(stat = "identity", fill = "#8FD6FA", width = 0.6) +
+  theme(panel.background = element_rect(fill = "#202429"),
+        panel.grid = element_line(color = "#202429")) +
+  xlab("Rolled Number") + 
+  ylab("Frequency of Roll") +
+  scale_x_continuous(labels = as.character(d10$Value), breaks = d10$Value) + 
+  geom_text(aes(label = Freq), vjust = 0, color = "white")
+d10Plot
+ggsave("d10Stats.png", plot = d10Plot)
+
+
+d8Plot <- ggplot(data = d8, aes(x = Value, y = Freq)) + 
+  geom_bar(stat = "identity", fill = "#8FD6FA", width = 0.6) +
+  theme(panel.background = element_rect(fill = "#202429"),
+        panel.grid = element_line(color = "#202429")) +
+  xlab("Rolled Number") + 
+  ylab("Frequency of Roll") +
+  scale_x_continuous(labels = as.character(d8$Value), breaks = d8$Value) + 
+  geom_text(aes(label = Freq), vjust = 0, color = "white")
+d8Plot
+ggsave("d8Stats.png", plot = d8Plot)
+
+
+d6Plot <- ggplot(data = d6, aes(x = Value, y = Freq)) + 
+  geom_bar(stat = "identity", fill = "#8FD6FA", width = 0.6) +
+  theme(panel.background = element_rect(fill = "#202429"),
+        panel.grid = element_line(color = "#202429")) +
+  xlab("Rolled Number") + 
+  ylab("Frequency of Roll") +
+  scale_x_continuous(labels = as.character(d6$Value), breaks = d6$Value) + 
+  geom_text(aes(label = Freq), vjust = 0, color = "white")
+d6Plot
+ggsave("d6Stats.png", plot = d6Plot)
+
+
+d4Plot <- ggplot(data = d4, aes(x = Value, y = Freq)) + 
+  geom_bar(stat = "identity", fill = "#8FD4FA", width = 0.6) +
+  theme(panel.background = element_rect(fill = "#202429"),
+        panel.grid = element_line(color = "#202429")) +
+  xlab("Rolled Number") + 
+  ylab("Frequency of Roll") +
+  scale_x_continuous(labels = as.character(d4$Value), breaks = d4$Value) + 
+  geom_text(aes(label = Freq), vjust = 0, color = "white")
+d4Plot
+ggsave("d4Stats.png", plot = d4Plot)
+```

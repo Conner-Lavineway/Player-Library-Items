@@ -60,9 +60,9 @@ d6 <- read.csv("d6-Sums.csv")
 d4 <- read.csv("d4-Sums.csv")
 
 x <- max(d20$Value) - (max(d20$Value)/4)
-y <- max(max(d20$Freq) + (max(d20$Freq)/10), 1)
+y <- 1 + max(d20$Freq) + (max(d20$Freq)/10)
 
-lab <- sprintf("%i Rolls", sum(d20$Freq))
+lab <- sprintf("%i Total Rolls", sum(d20$Freq))
 
                
 d20Plot <- ggplot(data = d20, aes(x = Value, y = Freq)) + 
@@ -73,10 +73,12 @@ d20Plot <- ggplot(data = d20, aes(x = Value, y = Freq)) +
         axis.title = element_text(color = "white"), 
         axis.text = element_text(color = "white"),
         plot.title = element_text(color = "white")) +
-  geom_label(color = background,
-       aes(x, y, label = lab),
+  annotate("label", color = "white",
+       x = x, y = y, label = lab,
+       label.size = NA,
        width = unit(0.4, "npc"),
-       hjust = 0, vjust = 1) +
+       hjust = 0, vjust = 1,
+       alpha = 0.0) +
   ggtitle("D20 Data") + 
   xlab("Rolled Number") + 
   ylab("Frequency of Roll") +
@@ -87,11 +89,10 @@ ggsave("d20Stats.png", plot = d20Plot)
 
 
 
-
 x <- max(d12$Value) - (max(d12$Value)/4)
-y <- max(max(d12$Freq) + (max(d12$Freq)/10),1)
+y <- 1 + max(d12$Freq) + (max(d12$Freq)/10)
 
-lab <- sprintf("%i Rolls", sum(d12$Freq))
+lab <- sprintf("%i Total Rolls", sum(d12$Freq))
 
 d12Plot <- ggplot(data = d12, aes(x = Value, y = Freq)) + 
   geom_bar(stat = "identity", fill = lineFill, width = 0.6) +
@@ -101,10 +102,12 @@ d12Plot <- ggplot(data = d12, aes(x = Value, y = Freq)) +
         axis.title = element_text(color = "white"), 
         axis.text = element_text(color = "white"),
         plot.title = element_text(color = "white")) +
-  geom_label(color = background,
-       aes(x, y, label = lab),
+  annotate("label", color = "white",
+       x = x, y = y, label = lab,
+       label.size = NA,
        width = unit(0.4, "npc"),
-       hjust = 0, vjust = 1) +
+       hjust = 0, vjust = 1,
+       alpha = 0.0) +
   ggtitle("D12 Data") + 
   xlab("Rolled Number") + 
   ylab("Frequency of Roll") +
@@ -117,9 +120,9 @@ ggsave("d12Stats.png", plot = d12Plot)
 
 
 x <- max(d10$Value) - (max(d10$Value)/4)
-y <- max(max(d10$Freq) + (max(d10$Freq)/10),1)
+y <- 1 + max(d10$Freq) + (max(d10$Freq)/10)
 
-lab <- sprintf("%i Rolls", sum(d10$Freq))
+lab <- sprintf("%i Total Rolls", sum(d10$Freq))
 
 d10Plot <- ggplot(data = d10, aes(x = Value, y = Freq)) + 
   geom_bar(stat = "identity", fill = lineFill, width = 0.6) +
@@ -129,10 +132,12 @@ d10Plot <- ggplot(data = d10, aes(x = Value, y = Freq)) +
         axis.title = element_text(color = "white"), 
         axis.text = element_text(color = "white"),
         plot.title = element_text(color = "white")) +
-  geom_label(color = background,
-       aes(x, y, label = lab),
+  annotate("label", color = "white",
+       x = x, y = y, label = lab,
+       label.size = NA,
        width = unit(0.4, "npc"),
-       hjust = 0, vjust = 1) +
+       hjust = 0, vjust = 1,
+       alpha = 0.0) +
   ggtitle("D10 Data") + 
   xlab("Rolled Number") + 
   ylab("Frequency of Roll") +
@@ -145,9 +150,9 @@ ggsave("d10Stats.png", plot = d10Plot)
 
 
 x <- max(d8$Value) - (max(d8$Value)/4)
-y <- max(max(d8$Freq) + (max(d8$Freq)/10),1)
+y <- 1 + max(d8$Freq) + (max(d8$Freq)/10)
 
-lab <- sprintf("%i Rolls", sum(d8$Freq))
+lab <- sprintf("%i Total Rolls", sum(d8$Freq))
 
 d8Plot <- ggplot(data = d8, aes(x = Value, y = Freq)) + 
   geom_bar(stat = "identity", fill = lineFill, width = 0.6) +
@@ -157,10 +162,12 @@ d8Plot <- ggplot(data = d8, aes(x = Value, y = Freq)) +
         axis.title = element_text(color = "white"), 
         axis.text = element_text(color = "white"),
         plot.title = element_text(color = "white")) +
-  geom_label(color = background,
-       aes(x, y, label = lab),
+  annotate("label", color = "white",
+       x = x, y = y, label = lab,
+       label.size = NA,
        width = unit(0.4, "npc"),
-       hjust = 0, vjust = 1) +
+       hjust = 0, vjust = 1,
+       alpha = 0.0) +
   ggtitle("D8 Data") + 
   xlab("Rolled Number") + 
   ylab("Frequency of Roll") +
@@ -172,9 +179,9 @@ ggsave("d8Stats.png", plot = d8Plot)
 
 
 x <- max(d6$Value) - (max(d6$Value)/4)
-y <- max(max(d6$Freq) + (max(d6$Freq)/10),1)
+y <- 1 + max(d6$Freq) + (max(d6$Freq)/10)
 
-lab <- sprintf("%i Rolls", sum(d6$Freq))
+lab <- sprintf("%i Total Rolls", sum(d6$Freq))
 
 
 d6Plot <- ggplot(data = d6, aes(x = Value, y = Freq)) + 
@@ -185,10 +192,12 @@ d6Plot <- ggplot(data = d6, aes(x = Value, y = Freq)) +
         axis.title = element_text(color = "white"), 
         axis.text = element_text(color = "white"),
         plot.title = element_text(color = "white")) +
-  geom_label(color = background,
-       aes(x, y, label = lab),
+  annotate("label", color = "white",
+       x = x, y = y, label = lab,
+       label.size = NA,
        width = unit(0.4, "npc"),
-       hjust = 0, vjust = 1) +
+       hjust = 0, vjust = 1,
+       alpha = 0.0) +
   ggtitle("D6 Data") + 
   xlab("Rolled Number") + 
   ylab("Frequency of Roll") +
@@ -201,9 +210,9 @@ ggsave("d6Stats.png", plot = d6Plot)
 
 
 x <- max(d4$Value) - (max(d4$Value)/4)
-y <- max(max(d4$Freq) + (max(d4$Freq)/10),1)
+y <- 1 + max(d4$Freq) + (max(d4$Freq)/10)
 
-lab <- sprintf("%i Rolls", sum(d4$Freq))
+lab <- sprintf("%i Total Rolls", sum(d4$Freq))
 
 d4Plot <- ggplot(data = d4, aes(x = Value, y = Freq)) + 
   geom_bar(stat = "identity", fill = "#8FD4FA", width = 0.6) +
@@ -213,10 +222,12 @@ d4Plot <- ggplot(data = d4, aes(x = Value, y = Freq)) +
         axis.title = element_text(color = "white"), 
         axis.text = element_text(color = "white"),
         plot.title = element_text(color = "white")) +
-  geom_label(color = background,
-       aes(x, y, label = lab),
+  annotate("label", color = "white",
+       x = x, y = y, label = lab,
+       label.size = NA,
        width = unit(0.4, "npc"),
-       hjust = 0, vjust = 1) +
+       hjust = 0, vjust = 1,
+       alpha = 0.0) +
   ggtitle("D4 Data") + 
   xlab("Rolled Number") + 
   ylab("Frequency of Roll") +

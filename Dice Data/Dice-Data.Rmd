@@ -1,17 +1,26 @@
 ---
-title: "Dice Data"
+title: \textcolor{white}{Dice Data}
 output: pdf_document
+header-includes:
+     \usepackage{xcolor}
+    \definecolor{bg}{HTML}{202429}
+    \usepackage{color}
+    \definecolor{white}{RGB}{255,255,255}
 ---
+
+
 
 ```{r setup, include=FALSE}
 library(tidyverse)
 library(ggplot2)
-library(reticulate)
 ```
 
 
-
+\pagecolor{bg}
 ```{r, echo = FALSE}
+
+background <- rgb(32/255, 36/255, 41/255, 1)
+lineFill <- rgb(143/255, 214/255, 250/255, 1)
 
 data <- read.csv("Dice-Data.csv")
 
@@ -50,14 +59,24 @@ d8 <- read.csv("d8-Sums.csv")
 d6 <- read.csv("d6-Sums.csv")
 d4 <- read.csv("d4-Sums.csv")
 
+x <- max(d20$Value) - (max(d20$Value)/4)
+y <- max(max(d20$Freq) + (max(d20$Freq)/10), 1)
+
+lab <- sprintf("%i Rolls", sum(d20$Freq))
+
+               
 d20Plot <- ggplot(data = d20, aes(x = Value, y = Freq)) + 
-  geom_bar(stat = "identity", fill = "#8FD6FA", width = 0.6) +
-  theme(panel.background = element_rect(fill = "#202429"),
-        panel.grid = element_line(color = "#202429"), 
-        plot.background = element_rect(fill = "#202429"), 
+  geom_bar(stat = "identity", fill = lineFill, width = 0.6) +
+  theme(panel.background = element_rect(fill = background),
+        panel.grid = element_line(color = background), 
+        plot.background = element_rect(fill = background), 
         axis.title = element_text(color = "white"), 
         axis.text = element_text(color = "white"),
         plot.title = element_text(color = "white")) +
+  geom_label(color = background,
+       aes(x, y, label = lab),
+       width = unit(0.4, "npc"),
+       hjust = 0, vjust = 1) +
   ggtitle("D20 Data") + 
   xlab("Rolled Number") + 
   ylab("Frequency of Roll") +
@@ -67,14 +86,25 @@ d20Plot
 ggsave("d20Stats.png", plot = d20Plot)
 
 
+
+
+x <- max(d12$Value) - (max(d12$Value)/4)
+y <- max(max(d12$Freq) + (max(d12$Freq)/10),1)
+
+lab <- sprintf("%i Rolls", sum(d12$Freq))
+
 d12Plot <- ggplot(data = d12, aes(x = Value, y = Freq)) + 
-  geom_bar(stat = "identity", fill = "#8FD6FA", width = 0.6) +
-  theme(panel.background = element_rect(fill = "#202429"),
-        panel.grid = element_line(color = "#202429"), 
-        plot.background = element_rect(fill = "#202429"), 
+  geom_bar(stat = "identity", fill = lineFill, width = 0.6) +
+  theme(panel.background = element_rect(fill = background),
+        panel.grid = element_line(color = background), 
+        plot.background = element_rect(fill = background), 
         axis.title = element_text(color = "white"), 
         axis.text = element_text(color = "white"),
         plot.title = element_text(color = "white")) +
+  geom_label(color = background,
+       aes(x, y, label = lab),
+       width = unit(0.4, "npc"),
+       hjust = 0, vjust = 1) +
   ggtitle("D12 Data") + 
   xlab("Rolled Number") + 
   ylab("Frequency of Roll") +
@@ -84,14 +114,25 @@ d12Plot
 ggsave("d12Stats.png", plot = d12Plot)
 
 
+
+
+x <- max(d10$Value) - (max(d10$Value)/4)
+y <- max(max(d10$Freq) + (max(d10$Freq)/10),1)
+
+lab <- sprintf("%i Rolls", sum(d10$Freq))
+
 d10Plot <- ggplot(data = d10, aes(x = Value, y = Freq)) + 
-  geom_bar(stat = "identity", fill = "#8FD6FA", width = 0.6) +
-  theme(panel.background = element_rect(fill = "#202429"),
-        panel.grid = element_line(color = "#202429"), 
-        plot.background = element_rect(fill = "#202429"), 
+  geom_bar(stat = "identity", fill = lineFill, width = 0.6) +
+  theme(panel.background = element_rect(fill = background),
+        panel.grid = element_line(color = background), 
+        plot.background = element_rect(fill = background), 
         axis.title = element_text(color = "white"), 
         axis.text = element_text(color = "white"),
         plot.title = element_text(color = "white")) +
+  geom_label(color = background,
+       aes(x, y, label = lab),
+       width = unit(0.4, "npc"),
+       hjust = 0, vjust = 1) +
   ggtitle("D10 Data") + 
   xlab("Rolled Number") + 
   ylab("Frequency of Roll") +
@@ -101,14 +142,25 @@ d10Plot
 ggsave("d10Stats.png", plot = d10Plot)
 
 
+
+
+x <- max(d8$Value) - (max(d8$Value)/4)
+y <- max(max(d8$Freq) + (max(d8$Freq)/10),1)
+
+lab <- sprintf("%i Rolls", sum(d8$Freq))
+
 d8Plot <- ggplot(data = d8, aes(x = Value, y = Freq)) + 
-  geom_bar(stat = "identity", fill = "#8FD6FA", width = 0.6) +
-  theme(panel.background = element_rect(fill = "#202429"),
-        panel.grid = element_line(color = "#202429"), 
-        plot.background = element_rect(fill = "#202429"), 
+  geom_bar(stat = "identity", fill = lineFill, width = 0.6) +
+  theme(panel.background = element_rect(fill = background),
+        panel.grid = element_line(color = background), 
+        plot.background = element_rect(fill = background), 
         axis.title = element_text(color = "white"), 
         axis.text = element_text(color = "white"),
         plot.title = element_text(color = "white")) +
+  geom_label(color = background,
+       aes(x, y, label = lab),
+       width = unit(0.4, "npc"),
+       hjust = 0, vjust = 1) +
   ggtitle("D8 Data") + 
   xlab("Rolled Number") + 
   ylab("Frequency of Roll") +
@@ -118,14 +170,25 @@ d8Plot
 ggsave("d8Stats.png", plot = d8Plot)
 
 
+
+x <- max(d6$Value) - (max(d6$Value)/4)
+y <- max(max(d6$Freq) + (max(d6$Freq)/10),1)
+
+lab <- sprintf("%i Rolls", sum(d6$Freq))
+
+
 d6Plot <- ggplot(data = d6, aes(x = Value, y = Freq)) + 
-  geom_bar(stat = "identity", fill = "#8FD6FA", width = 0.6) +
-  theme(panel.background = element_rect(fill = "#202429"),
-        panel.grid = element_line(color = "#202429"), 
-        plot.background = element_rect(fill = "#202429"), 
+  geom_bar(stat = "identity", fill = lineFill, width = 0.6) +
+  theme(panel.background = element_rect(fill = background),
+        panel.grid = element_line(color = background), 
+        plot.background = element_rect(fill = background), 
         axis.title = element_text(color = "white"), 
         axis.text = element_text(color = "white"),
         plot.title = element_text(color = "white")) +
+  geom_label(color = background,
+       aes(x, y, label = lab),
+       width = unit(0.4, "npc"),
+       hjust = 0, vjust = 1) +
   ggtitle("D6 Data") + 
   xlab("Rolled Number") + 
   ylab("Frequency of Roll") +
@@ -135,14 +198,25 @@ d6Plot
 ggsave("d6Stats.png", plot = d6Plot)
 
 
+
+
+x <- max(d4$Value) - (max(d4$Value)/4)
+y <- max(max(d4$Freq) + (max(d4$Freq)/10),1)
+
+lab <- sprintf("%i Rolls", sum(d4$Freq))
+
 d4Plot <- ggplot(data = d4, aes(x = Value, y = Freq)) + 
   geom_bar(stat = "identity", fill = "#8FD4FA", width = 0.6) +
-  theme(panel.background = element_rect(fill = "#202429"),
-        panel.grid = element_line(color = "#202429"), 
-        plot.background = element_rect(fill = "#202429"), 
+  theme(panel.background = element_rect(fill = background),
+        panel.grid = element_line(color = background), 
+        plot.background = element_rect(fill = background), 
         axis.title = element_text(color = "white"), 
         axis.text = element_text(color = "white"),
         plot.title = element_text(color = "white")) +
+  geom_label(color = background,
+       aes(x, y, label = lab),
+       width = unit(0.4, "npc"),
+       hjust = 0, vjust = 1) +
   ggtitle("D4 Data") + 
   xlab("Rolled Number") + 
   ylab("Frequency of Roll") +

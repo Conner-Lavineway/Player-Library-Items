@@ -73,6 +73,7 @@
 ## Magic Items of Note
 - [[DND/Player Library Items/Items in Inventories/Healer's Voice|Healer's Voice]]
 - [[DND/Player Library Items/Items in Inventories/Glasses of Spell Rewriting|Glasses of Spell Rewriting]]
+- [[Second Chance]]
 ## Languages and Proficiencies
 - Darkvision: 120ft
 - Armor: Light, Medium, Heavy, Shields \
